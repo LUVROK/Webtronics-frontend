@@ -1,0 +1,18 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/_error": "pages/_error.js",
+  "/Gallery": "pages/Gallery.html",
+  "/Loader": "pages/Loader.html",
+  "/Programming_technologies": "pages/Programming_technologies.html",
+  "/Questions": "pages/Questions.html",
+  "/Review": "pages/Review.html",
+  "/about_us": "pages/about_us.html",
+  "/contact_us": "pages/contact_us.html",
+  "/footer": "pages/footer.html",
+  "/": "pages/index.html",
+  "/page": "pages/page.html",
+  "/steps": "pages/steps.html",
+  "/utils/ScrollTriggerProxy": "pages/utils/ScrollTriggerProxy.html",
+  "/404": "pages/404.html"
+}
