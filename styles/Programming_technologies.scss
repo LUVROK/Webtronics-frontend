@@ -1,0 +1,76 @@
+.Programming-technologies {
+  position: relative;
+  width: 100%;
+  min-height: 516px;
+  margin-bottom: 164px;
+}
+.Programming-technologies__block {
+  position: relative;
+  width: var(--max-width);
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Programming-technologies h2 {
+  position: relative;
+}
+.Programming-technologies p {
+  position: relative;
+  font-family: "Inter-regular";
+  font-size: 16px;
+  text-align: center;
+  max-width: 432px;
+  margin-top: 16px;
+  line-height: 120%;
+}
+.Programming_technologies__technologiesList {
+  position: relative;
+  margin-top: 54px;
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  justify-content: space-around;
+}
+.Programming_technologies__technologiesList_element {
+  position: relative;
+  height: 230px;
+  width: 181px;
+  border-radius: 16px;
+  backdrop-filter: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Programming_technologies__technologiesList_element svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Programming_technologies__technologiesList_element img {
+  position: relative;
+  top: 10%;
+}
+.Programming_technologies__technologiesList_element h4 {
+  position: absolute;
+  bottom: 10%;
+}
+
+.Programming-technologies .Ellipse {
+  position: absolute;
+  transform: translateY(40%) translateX(0%);
+  bottom: 0;
+  left: 0;
+}

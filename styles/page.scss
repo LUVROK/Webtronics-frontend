@@ -1,0 +1,102 @@
+.page {
+  position: relative;
+  width: 100%;
+  height: 815px;
+  background: url(../media/images/background-page.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__bottom-gradient {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(180deg, rgba(12, 16, 45, 0) -4.71%, #0c102d 97.38%);
+  z-index: 1;
+}
+.page-block__others_block {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+.page-block__button {
+  position: absolute;
+  color: #0a1482;
+  padding: 24px 32px;
+  background: linear-gradient(to bottom, #1ff2ff, #27f9e5, #2fffcd);
+  border-radius: 8px;
+  font-family: "Inter-VariableFont_slnt,wght";
+  //   font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  bottom: 15%;
+  cursor: pointer;
+}
+.page-block__text {
+  position: absolute;
+  color: #ffffff;
+  top: 15%;
+  right: 0;
+  font-family: "Inter-regular";
+  font-size: 16px;
+  line-height: 140%;
+  max-width: 359px;
+}
+.page-block__courses {
+  position: absolute;
+  color: #ffffff;
+  bottom: -10%;
+  right: 2.5%;
+  font-size: 32px;
+  font-family: "ClashDisplay-Semibold";
+  line-height: 120%;
+  text-transform: capitalize;
+}
+
+.max-w_1210 {
+  position: relative;
+  min-width: var(--max-width);
+  min-height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 2;
+}
+
+h1 {
+  position: relative;
+  font-family: "ClashDisplay-Semibold";
+  font-size: 150px;
+  line-height: 120%;
+}
+
+h1 span {
+  position: relative;
+}
+
+h1 span:nth-of-type(2) {
+  left: 40%;
+}
+
+.page .Ellipse:nth-of-type(1) {
+  position: absolute;
+  transform: translateY(-10%) translateX(50%);
+  top: 0;
+  right: 0;
+}
+.page .Ellipse:nth-of-type(2) {
+  position: absolute;
+  transform: translateY(30%) translateX(-30%);
+  bottom: 0;
+  left: 0;
+}

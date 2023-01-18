@@ -1,0 +1,138 @@
+.Contact_us {
+  position: relative;
+  height: auto;
+}
+.Contact_us__block {
+  position: relative;
+  width: var(--max-width);
+  height: 598px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+  background-color: rgb(255, 255, 255, 0.05);
+  border-radius: 20px;
+  margin-bottom: 150px;
+  border: 1px solid #15bffd;
+}
+.Contact_us h2 {
+  margin-top: 56px;
+  line-height: 140%;
+}
+.Contact_us .p-1 {
+  margin-bottom: 24px;
+}
+
+.Contact_us .Ellipse {
+  position: absolute;
+  transform: translateY(-25%) translateX(40%);
+  opacity: 0.5;
+  top: 0;
+  right: 0;
+}
+
+.input-wrapper-second {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 16px;
+  font-family: "Inter-regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  color: #a2cbfb;
+  width: 40%;
+
+  label {
+    position: absolute;
+    transition: ease-out 0.2s;
+    pointer-events: none;
+    top: 50%;
+    margin-left: 24px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    color: #a2cbfb;
+
+    &.active {
+      opacity: 0;
+
+      ~ input {
+        border: 1px solid #15bffd;
+      }
+    }
+
+    span {
+      color: red;
+      padding-right: 3px;
+    }
+  }
+
+  input {
+    border: 0;
+    height: 70px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 2px;
+    transition: ease-out 0.2s;
+    border: 1px solid #15bffd;
+    background: rgb(255, 255, 255, 0.05);
+    border-radius: 8px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.Contact_us button {
+  position: relative;
+  width: 40%;
+  background: linear-gradient(180deg, #1ff2ff 0%, #27f9e5 52.66%, #2fffcd 100%);
+  border-radius: 8px;
+  height: 72px;
+  color: #0a1482;
+  font-size: 20px;
+  font-family: "Inter-regular";
+  border: 0px;
+  cursor: pointer;
+  transition: all 0.35s ease-out;
+}
+
+.messageSuccess {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "ClashDisplay-Regular";
+  font-size: 20px;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease-out;
+  z-index: 9999;
+}
+.messageSuccess div {
+  border-radius: 10px;
+  padding: 12px 25px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+// @keyframes scs_anim {
+//   0% {
+//     opacity: 1;
+//   }
+//   95% {
+//     opacity: 1;
+//   }
+//   100% {
+//     opacity: 0;
+//   }
+// }
